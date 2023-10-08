@@ -15,10 +15,11 @@
     background-color: #FFFFFF;
 }
 .navigation{
+    width: 825px;
     
     width: 825px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 }
 .navigation ul{
@@ -67,11 +68,16 @@
     width: 119px;
     font-size: 18px;
     color: #37393F;
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-weight: 500;
 }
 .work-process-tittle h3{
     width: 283px;
     font-size: 40px;
     color: #37393F;
+    font-family: Poppins;
+    font-weight: 700;
 }
 .work-process-blocks{
     width: 1220px;
@@ -93,19 +99,26 @@
 .work-process-block1 h4{
     margin-top: 58px;
     width: 245px;
-    font-size: 25px;
+    font-size: 20px;
     color: #37393F;
+    font-family: Poppins;
+    font-weight: 600;
 }
 .work-process-block1 p{
     width: 300px;
     font-size: 18px;
     color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
     
 }
 .work-process-block1 h5{
     width: 111px;
     font-size: 18px;
     color: #6B77E5;
+    font-family: Inter;
+    font-weight: 600;
 }
 
 .work-process-block2{
@@ -120,18 +133,25 @@
 .work-process-block2 h4{
     margin-top: 58px;
     width: 165px;
-    font-size: 25px;
+    font-size: 20px;
     color: #37393F;
+    font-family: Poppins;
+    font-weight: 600;
 }
 .work-process-block2 p{
     width: 300px;
     font-size: 18px;
     color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
 }
 .work-process-block2 h5{
     width: 111px;
     font-size: 18px;
     color: #6B77E5;
+    font-family: Inter;
+    font-weight: 600;
 }
 .work-process-block3{
     width: 386px;
@@ -145,18 +165,26 @@
 .work-process-block3 h4{
     margin-top: 58px;
     width: 215px;
-    font-size: 25px;
+    height: 32px;
+    font-size: 20px;
     color: #37393F;
+    font-family: Poppins;
+    font-weight: 600;
 }
 .work-process-block3 p{
     width: 300px;
     font-size: 18px;
     color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
 }
 .work-process-block3 h5{
     width: 111px;
     font-size: 18px;
     color: #6B77E5;
+    font-family: Inter;
+    font-weight: 600;
 }
 .icon{
     width: 72px;
@@ -217,6 +245,8 @@
     font-size: 18px;
     line-height: 21.78px;
     color: #37393F;
+    font-family: Inter;
+    font-weight: 500;
 }
 .banner-text h3{
     width: 349px;
@@ -226,6 +256,8 @@
     color: #37393F;
     margin-top: 16px;
     margin-bottom: 21px;
+    font-family: Poppins;
+    font-weight: 700;
 }
 .banner-text p{
     width: 511px;
@@ -233,6 +265,8 @@
     font-size: 18px;
     line-height: 26.31px;
     color: #37393F;
+    font-family: Inter;
+    font-weight: 400;
 }
 .play-button{
     width: 64.5px;
@@ -241,9 +275,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 47px;
-    border-radius: 100%;
-    
+    border-radius: 100%;    
 }
+
 /* section #3 */
 .section3{
     width: 1220px;
@@ -270,6 +304,8 @@
     font-size: 18px;
     line-height: 21.78px;
     color:#37393F;
+    font-family: Inter;
+    font-weight: 500;
 }
 .our-team h3{
     width: 348px;
@@ -277,6 +313,8 @@
     font-size: 40px;
     line-height: 48.4px;
     color:#37393F;
+    font-family: Poppins;
+    font-weight: 700;
 }
 .profession-wraper{
     margin-top: 41px;
@@ -290,8 +328,11 @@
     width: 386px;
     height: 532px;
     position: relative;
-}.profession-block img{
-    width: 100%;
+    
+}
+
+.profession-block img{
+    width: 100%;  
 }
 .profession{
     width: 341px;
@@ -308,11 +349,15 @@
     
 }
 .profession h3{
-    
+    font-family: Poppins;
+    font-weight: 600;
     font-size: 25px;
     color: #37393F;
+    margin-bottom: 4px;
 }
 .profession h6{
+    font-family: Inter;
+    font-weight: 400;
     font-size: 18px;
     line-height: 24.33px;
     color: #7D7D7D;

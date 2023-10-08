@@ -34,6 +34,9 @@
     font-size: 18px;
     color: #37393F;
 }
+.pages{
+    transition: all 1s linear;
+}
 
 .get-consulting{
     width: 184px;
@@ -42,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    transition: all 1s linear;
 }
 .get-consulting a{
     color: #FFFFFF;
@@ -328,7 +331,7 @@
     width: 386px;
     height: 532px;
     position: relative;
-    
+    transition: all 1s linear;
 }
 
 .profession-block img{
@@ -346,7 +349,7 @@
     position: absolute;
     left: 22px;
     bottom: 22px;
-    
+    transition: all 1s linear ;
 }
 .profession h3{
     font-family: Poppins;
@@ -361,4 +364,19 @@
     font-size: 18px;
     line-height: 24.33px;
     color: #7D7D7D;
+}
+/* hover effects */
+.profession-block:hover{
+    transform: scale(1.1, 1.1);
+}
+.profession:hover{
+    background-color: #FFFFFF;
+    transform: scale(1.1, 1.1);
+}
+.pages:hover{
+    transform: scale(1.1,1.1);
+}
+.get-consulting:hover{
+    background-color: darkgray;
+    transform: scale(1.1,1.1);
 }

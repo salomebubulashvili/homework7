@@ -1,6 +1,5 @@
 .body{
-    width: 1920px;
-    height: 2301px;
+    
     background-color: #FFFFFF;
 }
 .header-container{
@@ -9,11 +8,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 53px;
+    left: 350px;
+    z-index: 100;
+    background-color: #FFFFFF;
 }
 .navigation{
+    
     width: 825px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
 }
 .navigation ul{
     display: flex;
@@ -22,11 +28,12 @@
 }
 .navigation li{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-right: 40px;
     font-size: 18px;
     color: #37393F;
 }
+
 .get-consulting{
     width: 184px;
     height: 65px;
@@ -40,116 +47,273 @@
     color: #FFFFFF;
 }
 /* section #1 */
-.work-process{
+.section1{
     width: 1220px;
-    height: 510px;
+    margin: 0 auto;
+    padding-top: 254px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 .work-process-tittle{
     width: 283px;
-    height: 86px;
-    
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 41px;
+    flex-wrap: wrap;
+}
+.work-process-tittle h5{
+    width: 119px;
+    font-size: 18px;
+    color: #37393F;
+}
+.work-process-tittle h3{
+    width: 283px;
+    font-size: 40px;
+    color: #37393F;
 }
 .work-process-blocks{
     width: 1220px;
-    height: 383px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+    margin-top: 41px;
 }
 .work-process-block1{
+    
     width: 386px;
     height: 383px;
-    background-color: #F4F4F4;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    background-color: #F4F4F4;
     
 }
-.work-process-blocks h4{
+.work-process-block1 h4{
+    margin-top: 58px;
+    width: 245px;
     font-size: 25px;
     color: #37393F;
 }
-.work-process-blocks p{
+.work-process-block1 p{
+    width: 300px;
+    font-size: 18px;
+    color: #7D7D7D;
+    
+}
+.work-process-block1 h5{
+    width: 111px;
+    font-size: 18px;
+    color: #6B77E5;
+}
+
+.work-process-block2{
+    width: 386px;
+    height: 383px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+.work-process-block2 h4{
+    margin-top: 58px;
+    width: 165px;
+    font-size: 25px;
+    color: #37393F;
+}
+.work-process-block2 p{
+    width: 300px;
     font-size: 18px;
     color: #7D7D7D;
 }
-.work-process-blocks h5{
+.work-process-block2 h5{
+    width: 111px;
     font-size: 18px;
     color: #6B77E5;
-}.work-process-block2{
-    width: 386px;
-    height: 383px;
-    background-color: #F4F4F4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .work-process-block3{
     width: 386px;
     height: 383px;
-    background-color: #F4F4F4;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+    background-color: #F4F4F4;
+}
+.work-process-block3 h4{
+    margin-top: 58px;
+    width: 215px;
+    font-size: 25px;
+    color: #37393F;
+}
+.work-process-block3 p{
+    width: 300px;
+    font-size: 18px;
+    color: #7D7D7D;
+}
+.work-process-block3 h5{
+    width: 111px;
+    font-size: 18px;
+    color: #6B77E5;
+}
+.icon{
+    width: 72px;
+    height: 72px;
+    background-color: #40DDB6;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    border-radius: 100%;
+    margin-bottom: 58px;
+}
+.block2-icon{
+    width: 72px;
+    height: 72px;
+    background-color: #6B77E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-bottom: 58px;
 }
 /* section #2 */
-
-/* section #3 */
-.team-container{
-    width: 1220px;
-    height: 659px;
+.section2{
+    margin: 0 auto;
+    width: 1920px;
+    height: 557px;
+    position: relative;
+    margin-top: 60px;
+}
+.section2-img{
+    width: 100%;
+}
+.banner-content{
+    width: 511px;
+    height: 270.5px;
+    position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.our-team{
-    width: 348px;
-    height: 86px;
+.banner-text{
+    width: 511px;
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-text h6{
+    width: 102px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #37393F;
+}
+.banner-text h3{
+    width: 349px;
+    height: 48px;
+    font-size: 40px;
+    line-height: 48.4px;
+    color: #37393F;
+    margin-top: 16px;
+    margin-bottom: 21px;
+}
+.banner-text p{
+    width: 511px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 26.31px;
+    color: #37393F;
+}
+.play-button{
+    width: 64.5px;
+    height: 64.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    border-radius: 100%;
+    
+}
+/* section #3 */
+.section3{
+    width: 1220px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    margin-top: 130px;
+}
+.our-team{
+    width: 384px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .our-team h5{
     width: 84px;
+    height: 22px;
     font-size: 18px;
-    color: #37393F;
+    line-height: 21.78px;
+    color:#37393F;
 }
 .our-team h3{
     width: 348px;
+    height: 48px;
     font-size: 40px;
-    color: #37393F;
+    line-height: 48.4px;
+    color:#37393F;
 }
-.profession-blocks{
+.profession-wraper{
+    margin-top: 41px;
     width: 1220px;
     height: 532px;
     display: flex;
     justify-content: space-between;
-    gap: 31px;
+    
 }
-.profession-blocks img{
+.profession-block{
+    width: 386px;
+    height: 532px;
+    position: relative;
+}.profession-block img{
     width: 100%;
 }
 .profession{
-    background-color: #FFFFFF;
     width: 341px;
     height: 114px;
+    background-color: #FFFFFF;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    text-align: center;
+    position: absolute;
+    left: 22px;
+    bottom: 22px;
+    
 }
 .profession h3{
+    
     font-size: 25px;
-    width: 203px;
+    color: #37393F;
 }
 .profession h6{
     font-size: 18px;
+    line-height: 24.33px;
     color: #7D7D7D;
 }
